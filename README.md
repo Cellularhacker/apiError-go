@@ -7,4 +7,4 @@ apiErrors that using across based on Cellularhacker's Codes written in Go.
   go get -u github.com/Cellularhacker/apiError-go
   ```
 ## ※ Important
-- package name is just `apiError`. so you have to use like **`apiError.<Something>`**, not **`apiError-go.<Something>`.**
+- package name is just `apiError`. so you have to use like **`apiError.Error`**, not **`apiError-go.Error`.**
