@@ -32,3 +32,7 @@ apiError
 .idea/
 .env*
 .DS_Store
+# ── Claude Code (public repo — internal context 노출 방지) ──
+.claude/
+CLAUDE.md
+claude-memory/
