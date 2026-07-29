@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build check - dev
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, hoshinova, apiError-go]
     steps:
       - uses: actions/checkout@v4
       - name: Setup go with cache
